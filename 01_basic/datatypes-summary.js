@@ -13,6 +13,30 @@ const anotherId = symbol('123')
 
 console.log(id === anotherId);
 
+//+++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (primitive), heap (Non-primitive)
+
+let myYoutubename = "manishgupta"
+let anothername = myYoutubename
+anothername = "manishwithcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "manish@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
 //const bigNumber = 21365478921542n
 
 
