@@ -1,0 +1,2 @@
+// functions 
+console.log("advik")
