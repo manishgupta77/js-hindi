@@ -6,10 +6,30 @@
     <title>html Events</title>
 </head>
 <body>
- 
-    
-    
-</body>
+    <h1>Chai ur code</h1>
+    <button id="stop">stop</button>
+ </body>
+ <script>
+    const sayManish = function(){
+        console.log("Manish");
+    }
+    const changeText = function(){
+        document.querySelector('h1').
+        innerHTML = "best js series"
+    }
+    const changeme = setTimeout(changeText, 2000)
+    document.querySelector('#stop').
+    addEventListener('click', function(){
+        clearTimeout(changeMe)
+        console.log("STOPPED")
+    })
+
+    clearTimeout(changeme)
+ </script>
 </html>
+
+
+
+
 
 // kuch samaj nai aya 3.30 to 4:00 tak timing
