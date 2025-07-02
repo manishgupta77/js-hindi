@@ -14,7 +14,7 @@ Object.prototype.manish = function(){
     console.log('manish is present in all object');
 }
 
-Array.prototype.heymanish = function(){
+Array.prototype.heyManish = function(){
     console.log('manish says hello');
 }
 
