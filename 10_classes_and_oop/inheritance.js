@@ -1,4 +1,4 @@
-class USer {
+class User {
     constructor(username){
         this.username = username
     }
@@ -20,3 +20,11 @@ class Teacher extends User{
         console.log('A new course was added by ${this.username}');
     }
 }
+
+const chai = new Teacher("chai", "chai@teacher.com", "123")
+
+chai.logme()
+const masalaChai = new User("masalaChai")
+
+masalaChai.logme()
+console.log(chai instanceof User);
